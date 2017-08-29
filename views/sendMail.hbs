@@ -1,0 +1,56 @@
+<!--  Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license.
+        See LICENSE in the source repository root for complete license information. -->
+        
+<div class="ms-Grid-row">
+   <!-- App navigation bar markup. -->
+   <div class="ms-NavBar">
+      <ul class="ms-NavBar-items">
+         <li class="navbar-header">Microsoft Graph Connect sample</li>
+         <li id="disconnect_link" class="ms-NavBar-item ms-NavBar-item--right" onclick="window.location.href='disconnect'"><i class="ms-Icon ms-Icon--x"></i> Disconnect</li>
+      </ul>
+   </div>
+   <!-- App main content markup. -->
+   <div class="ms-Grid-col ms-u-mdPush1 ms-u-md9 ms-u-lgPush1 ms-u-lg6">
+        <p class="ms-font-l">Calendars</p>
+        <form action="calendars" method="get">
+                <button class="ms-Button">Get Calendar</button>
+        </form>
+        <p class="ms-font-l">Events</p>
+        <form action="events" method="get">
+                <button class="ms-Button">Get All Events</button>
+        </form>
+        <p class="ms-font-l">Open Extensions</p>
+        <form action="open-extensions" method="get">
+                <button class="ms-Button">Get Open Extensions</button>
+        </form>
+        <br>
+        <form action="open" method="post">
+                <input type="submit" class="ms-Button" value="Create New Open Extension">
+        </form>
+        <p class="ms-font-l">Schema Extensions</p>
+        <form action="schema-extensions" method="get">
+                <button class="ms-Button">Get Schema Extensions</button>
+        </form>
+        <br>
+        <form action="schema" method="post">
+                {{!-- <buttton class="ms-Button">Create New Schema Extension</buttton> --}}
+                <input type="submit" class="ms-Button" value="Create New Schema Extension">
+        </form>
+        <br>
+        <form action="event-schema-extension" method="post">
+                <input type="submit" class="ms-Button" value="Add Schema Extension to an Existing Event">
+        </form>
+        <br>
+        <form action="event-with-schema-extension" method="get">
+                <input type="submit" class="ms-Button" value="Get Event using a Schema Extension">
+        </form>
+        <p class="ms-font-l">Oulook Extended Properties</p>
+        <form action="event-outlook-extended-properites" method="post">
+                <input type="submit" class="ms-Button" value="Create Event with Outlook Extended Property">
+        </form>
+        <br>
+        <form action="get-event-with-outlook-extended-property" method="get">
+                <input type="submit" class="ms-Button" value="Get Event with Outlook Extended Property">
+        </form>
+   </div>
+</div>
