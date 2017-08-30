@@ -41,7 +41,7 @@ To use the this sample, you need the following:
 
 2. Useing you favorite IDE, open **utlis/config.js**.
 
-3. Replace the **clinetID** and **clientSecret** placeholder values with the Appplication ID and Application Secret you copied during app registration.
+3. Replace the **clientID** and **clientSecret** placeholder values with the Appplication ID and Application Secret you copied during app registration.
 
 4. In command prompt, run the following command in the root directory. ``npm install``. This installs the project dependencies. 
 
