@@ -55,4 +55,8 @@ To use the this sample, you need the following:
 
 ## Other information
 
-Make sure to take a look at the **routes/index.js**. You will have to add in event ids to make some of the routes work. 
+Make sure to take a look at the **routes/index.js**. You will have to add in event ids to make some of the routes work. Here are the routes to check:
+* ``/open``
+* ``/open-extensions``
+* ``/event-schema-extension``
+* ``/get-event-with-outlook-extended-property``
